@@ -1,0 +1,85 @@
+<DOCTYPE HTML!>
+    <html>
+
+    <head>
+        <title>Survey form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1 id="title">Health Survey Form</h1>
+        <p id="description">Your Health is our Priority.</p>
+        <form id="survey-form" method="get">
+            <fieldset>
+                <label id="name-label">
+                    Name
+                    <input id="name" type="text" placeholder="enter your name" required><br>
+                </label>
+                <br>
+                <label id="email-label">
+                    Email
+                    <input id="email" type="email" placeholder="enter your mail" required>
+                    <br>
+                </label>
+                <br>
+                <label id="number-label">
+                    Number<input id="number" min="8" max="13" placeholder="enter your number" type="number" required>
+                </label> <br>
+
+
+                <br>
+                select your city
+                <select id="dropdown" placeholder="select an option">
+                    <option>karachi</option>
+                    <option>islmabad</option>
+                    <option>lahore</option>
+                </select>
+                <br>
+                Do u like our services?<br>
+
+                <input type="radio" value="gp1" name="yes" checked>yes</input>
+                <input type="radio" value="gp1" name="no">no</input>
+                <input type="radio" value="gp2" name="yes">not sure</input>
+                <input type="radio" value="gp2" name="no">none of them</input>
+                <br>
+                Select Your favourite ones?
+                <br>
+                <label>Childspecialist<input type="checkbox" value="Childspecialist"></label>
+                <br>
+                <label>Cardiologist<input type="checkbox" value="Cardiologist"></label>
+                <br>
+                <label>Dentist<input type="checkbox" value="Dentist"></label><br>
+                <label>Dispensery<input type="checkbox" value="Dispensery"></label><br>
+
+                <label>Gyanogologist<input type="checkbox" value="Gyanogologist"></label>
+                <br>
+                <textarea cols="35" rows="5" placeholder="">write your experience here            </textarea>
+                <br>
+                <button id="submit"type="submit">Submit</button>
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </html>
